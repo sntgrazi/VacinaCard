@@ -1,18 +1,19 @@
-## Getting Started
+## Sistema de Registro de Vacinas para Crianças
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um sistema simples em Java que permite o cadastro de dados de crianças, endereços e vacinas. O sistema é executado no terminal e fornece um menu interativo para facilitar a navegação.
 
-## Folder Structure
+## Como Executar o Sistema
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1°- Clone o repositório para a sua máquina local:
+```
+git clone https://github.com/sntgrazi/VacinaCard.git
+cd VacinaCard/src
+```
+2°- Compile o código-fonte:
+```
+javac ProgramaCSC.java
+```
+3°- Execute o programa:
+```
+java ProgramaCSC.java
+```
